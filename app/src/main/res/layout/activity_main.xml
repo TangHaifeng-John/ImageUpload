@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.MainActivity">
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+        <Button
+                android:id="@+id/select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择图片"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+                android:id="@+id/jump"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="进入已上传界面"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
