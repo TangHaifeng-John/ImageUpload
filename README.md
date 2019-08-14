@@ -15,3 +15,10 @@ public class Config {
 }
 
 ```
+
+里面涉及到的技术点
+
+Kotlin的使用
+阿里云OSS文件上传
+LiveData和ViewModel
+
