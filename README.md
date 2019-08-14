@@ -24,4 +24,5 @@ public class Config {
  - Kotlin的使用
  - 阿里云OSS文件上传
  - LiveData和ViewModel
+ - [图片压缩](https://github.com/WGDrzjz/ImageCompress)
 
